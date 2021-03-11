@@ -5,6 +5,7 @@
     2. Aprender a utilização de classes
     3. Entender os motivos para se usar métodos, funções e classes
 """
+#Criar uma classe com funções simples de calculadora
 class Math:
     def __init__(self, num1, num2):
         self.valor_a = num1
