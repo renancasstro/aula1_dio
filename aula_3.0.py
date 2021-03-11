@@ -11,7 +11,7 @@ elif restoa == 0 or restob == 0:
     print("Foi digitado pelo menos um número par")
 else:
     print("Não foi digitado número par")
-print("Fim do programa")
+print("Final do programa")
 
 
 
