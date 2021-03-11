@@ -1,4 +1,4 @@
-# Aula de For
+# Uso do comando For pra identificar se o número é primo
 
 print("Após digitar um número, o programa irá informar se o número é primo!")
 a = int(input("Digite um número: "))
