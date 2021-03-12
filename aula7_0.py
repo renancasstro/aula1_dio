@@ -22,9 +22,12 @@ class Math:
     def divisao(self):
         return self.valor_a / self.valor_b
 
-calc = Math(10,2)
-print(calc.valor_a)
-print(calc.soma())
-print(calc.subtracao())
-print(calc.multiplicao())
-print(calc.divisao())
+#Condição inserida na aula 8 para executar apenas se o mesmo arquivo no qual está contido que rodou o programa
+
+if __name__ == "__main__":
+    calc = Math(10,2)
+    print(calc.valor_a)
+    print(calc.soma())
+    print(calc.subtracao())
+    print(calc.multiplicao())
+    print(calc.divisao())

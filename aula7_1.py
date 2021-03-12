@@ -1,5 +1,4 @@
 # Mecanismo de ligar, desligar e trocar de canal
-
 class Televisao:
     def __init__ (self):
         self.ligada = False
@@ -21,17 +20,20 @@ class Televisao:
         if self.ligada:
             self.canal -= 1
 
-tv = Televisao()
-print("Televisão está ligada: {}" .format(tv.ligada))
-tv.power()
-print("Televisão está ligada: {}" .format(tv.ligada))
-tv.power()
-print("Televisão está ligada: {}" .format(tv.ligada))
-tv.power()
-print("Televisão está ligada: {}" .format(tv.ligada))
-print("Canal: {}" .format(tv.canal))
-tv.aumenta_canal()
-tv.aumenta_canal()
-print("Canal: {}" .format(tv.canal))
-tv.diminui_canal()
-print("Canal: {}" .format(tv.canal))
+#Condição inserida na aula 8 para executar apenas se o mesmo arquivo no qual está contido que rodou o programa
+
+if __name__ == "__main__":
+    tv = Televisao()
+    print("Televisão está ligada: {}" .format(tv.ligada))
+    tv.power()
+    print("Televisão está ligada: {}" .format(tv.ligada))
+    tv.power()
+    print("Televisão está ligada: {}" .format(tv.ligada))
+    tv.power()
+    print("Televisão está ligada: {}" .format(tv.ligada))
+    print("Canal: {}" .format(tv.canal))
+    tv.aumenta_canal()
+    tv.aumenta_canal()
+    print("Canal: {}" .format(tv.canal))
+    tv.diminui_canal()
+    print("Canal: {}" .format(tv.canal))
